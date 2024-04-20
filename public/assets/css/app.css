@@ -1,0 +1,29 @@
+body {
+    font-family: "Comic Sans MS", cursive;
+    margin: 0;
+    padding: 0;
+    height: 2700px; /* Ajustez la hauteur selon vos besoins */
+    background: linear-gradient(to bottom,#87CEEB, #DCDCDC); /* Dégradé de bleu à noir */
+  }
+
+  /* Animation du dégradé lors du défilement */
+  @keyframes scroll {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 0 100%;
+    }
+  }
+
+  /* Appliquer l'animation au fond d'écran */
+  body {
+    animation: scroll 10s linear infinite; /* Réglez la durée et le timing de l'animation selon vos préférences */
+  }
+
+  #header-page {
+        background-color: white; /* Couleur de fond de la div */
+        border-radius: 10px; /* Rayon des coins arrondis */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+        padding:20px;
+  }
